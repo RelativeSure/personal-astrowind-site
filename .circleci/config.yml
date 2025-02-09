@@ -1,0 +1,9 @@
+version: '2.1'
+orbs:
+  megalinter: relativesure/megalinter@2.0.0
+workflows:
+  run-megalinter:
+    jobs:
+      - megalinter/run:
+          resource_class: relativesure/hetzner-ubuntu-kind
+          flavor: ci_light
