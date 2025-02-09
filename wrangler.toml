@@ -1,0 +1,9 @@
+name = "personal-astrowind-site"
+pages_build_output_dir = "./dist"
+compatibility_date = "2024-11-11"
+# compatibility_flags = [ "nodejs_compat_v2" ]
+upload_source_maps = true
+
+[vars]
+NODE_VERSION = "v23"
+PNPM_VERSION = "10"
